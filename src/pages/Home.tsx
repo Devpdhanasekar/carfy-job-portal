@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { Search, Briefcase, Building2, Users } from 'lucide-react';
+import { Link } from "react-router-dom";
+import { Search, Briefcase, Building2, Users } from "lucide-react";
 
 export default function Home() {
   return (
@@ -12,7 +12,8 @@ export default function Home() {
               Find Your Dream Remote Tech Job
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Connect with top tech companies hiring remote talent globally. Your next opportunity awaits.
+              Connect with top tech companies hiring remote talent globally.
+              Your next opportunity awaits.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
@@ -22,7 +23,7 @@ export default function Home() {
                 Browse Jobs
               </Link>
               <Link
-                to="/register"
+                to="/post-job"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Post a Job <span aria-hidden="true">→</span>
@@ -36,7 +37,9 @@ export default function Home() {
       <div className="bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">Why Choose Crafty Hub</h2>
+            <h2 className="text-base font-semibold leading-7 text-indigo-600">
+              Why Choose Crafty Hub
+            </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Everything you need to find your next role
             </p>
@@ -51,7 +54,8 @@ export default function Home() {
                   Smart Job Matching
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Our AI-powered platform matches you with jobs that fit your skills and experience.
+                  Our AI-powered platform matches you with jobs that fit your
+                  skills and experience.
                 </dd>
               </div>
               <div className="relative pl-16">
@@ -62,7 +66,8 @@ export default function Home() {
                   Vetted Companies
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  We partner with legitimate companies committed to remote work culture.
+                  We partner with legitimate companies committed to remote work
+                  culture.
                 </dd>
               </div>
               <div className="relative pl-16">
